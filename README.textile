@@ -88,6 +88,7 @@ rake check_links                               # Check links for site already ru
 rake clean                                     # Clean up generated site
 rake create_post[date,title,category,content]  # Create a post
 rake deploy                                    # Build and deploy to remote server
+rake deploy_s3                                 # Build and deploy to Amazon S3 (uses s3_website script)
 rake list_changes                              # Print the file changed since last deploy
 rake post_changes                              # Create a post listing all changes since last deploy
 rake preview                                   # Preview on local machine (server with --auto)
